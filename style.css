@@ -1,0 +1,118 @@
+body {
+  font-family: Roboto;
+  background-color: #F9EFDB;
+}
+
+.container {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: block;
+}
+
+@media (max-width: 960px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+  }
+}
+
+.card {
+  display: block;
+  width: 50%;
+  margin: 20px auto 20px auto;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+p {
+  margin: 10px;
+}
+
+#profile-pic {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+
+h1 {
+  color: #43766C;
+  font-size: 24px;
+}
+
+h2 {
+  color: #43766C;
+  font-size: 18px;
+}
+
+h3 {
+  color: #638889;
+  font-size: 16px;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding-left: 0px;
+}
+
+li {
+  display: inline-block;
+  margin: 10px 10px 0 0;
+  text-align: center;
+}
+
+.fa-brands-text {
+  font-family: "Roboto";
+  font-size: 10px;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.button-green {
+  display: inline-block;
+  font-family: "Roboto";
+  border: none;
+  background-color: #43766C;
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.button-green:hover {
+  background-color: #D2E3C8;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: #43766C;
+}
+
+a:hover {
+  color: #D2E3C8;
+}
